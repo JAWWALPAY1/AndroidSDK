@@ -1,2 +1,2 @@
-# AcceptSDK
-Accept Payments Android SDK
+# JawwalPay Andorid SDK
+
