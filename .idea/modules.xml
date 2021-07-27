@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android_SDK_Example.iml" filepath="$PROJECT_DIR$/.idea/modules/Android_SDK_Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidsdk/Android_SDK_Example.androidsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/androidsdk/Android_SDK_Example.androidsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android_SDK_Example.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android_SDK_Example.app.iml" />
+    </modules>
+  </component>
+</project>
