@@ -1,0 +1,4 @@
+#Tue Jul 27 14:43:42 EET 2021
+base.0=D\:\\AndroidSDK\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

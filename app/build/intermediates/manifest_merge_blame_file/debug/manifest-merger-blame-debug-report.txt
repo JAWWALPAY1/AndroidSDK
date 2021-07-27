@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android_sdk_example"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\AndroidSDK\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\AndroidSDK\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:4:5-66
+11-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:5:5-19:19
+14        android:allowBackup="true"
+14-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\AhmedRaafat\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:7:9-43
+18        android:label="Jawwal Pay"
+18-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:8:9-35
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:11:9-40
+23        <activity android:name="com.example.android_sdk_example.MainActivity" >
+23-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:12:9-18:20
+23-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:12:19-47
+24            <intent-filter>
+24-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:13:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:14:17-69
+25-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:14:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:16:17-77
+27-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->[:androidsdk] D:\AndroidSDK\androidsdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-21:20
+31            android:name="com.example.androidsdk.Pay"
+31-->[:androidsdk] D:\AndroidSDK\androidsdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-54
+32            android:configChanges="orientation|screenSize"
+32-->[:androidsdk] D:\AndroidSDK\androidsdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-59
+33            android:label="Jawaal Pay" >
+33-->[:androidsdk] D:\AndroidSDK\androidsdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-39
+34            <intent-filter>
+34-->[:androidsdk] D:\AndroidSDK\androidsdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-20:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:14:17-69
+35-->D:\AndroidSDK\app\src\main\AndroidManifest.xml:14:25-66
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>
